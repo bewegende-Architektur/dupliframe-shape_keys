@@ -1,8 +1,7 @@
 # dupliframe-shape_keys
-In previous versions of blender there was a tool called dupliframe:
-https://docs.blender.org/manual/en/2.79/editors/3dview/object/properties/duplication/dupliframes.html
+In previous versions of blender there was a tool called dupliframe. This methode allowed users to duplicate an animated object at every frame. https://docs.blender.org/manual/en/2.79/editors/3dview/object/properties/duplication/dupliframes.html
 
-This methode allowed users to duplicate an animated object at every frame. This script is doing the same but with animated shape keys also.
+This script is doing the same but with animated shape keys also.
 
 ### Howto
 * Set blender into scripting mode
