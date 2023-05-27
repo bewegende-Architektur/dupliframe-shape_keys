@@ -1,5 +1,5 @@
 # dupliframe-shape_keys
-In previous versions of blender there was a tool called dupliframe.
+In previous versions of blender there was a tool called dupliframes.
 This methode allowed users to duplicate an animated object at every frame. 
 https://docs.blender.org/manual/en/2.79/editors/3dview/object/properties/duplication/dupliframes.html
 
