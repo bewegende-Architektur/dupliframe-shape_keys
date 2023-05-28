@@ -46,3 +46,12 @@ for frame in range(start, end):
         # delte keys
         for shapeKey in new_obj.data.shape_keys.key_blocks:
             new_obj.shape_key_remove(shapeKey)
+    
+    # copy material
+    mat = new_obj.active_material
+    if mat:
+        new_mat = mat.copy()
+        new_obj.active_material = new_mat
+    
+        # delete keyframes of material
+        new_mat.animation_data_clear()
