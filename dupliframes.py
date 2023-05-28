@@ -52,9 +52,10 @@ for frame in range(start, end):
     if mat:
         new_mat = mat.copy()
         new_obj.active_material = new_mat
-    
+        
         # delete keyframes of material
         new_mat.animation_data_clear()
+        new_mat.node_tree.animation_data_clear()
     
     # apply modifieres
     bpy.context.view_layer.objects.active = new_obj
