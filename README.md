@@ -4,6 +4,7 @@ This methode allowed users to duplicate an animated object at every frame.
 https://docs.blender.org/manual/en/2.79/editors/3dview/object/properties/duplication/dupliframes.html
 
 This script is doing the same but with animated shape keys and materials too.
+It is tested in Blender 3.5 but should work with all version down to 2.8.
 
 ### Howto
 * Set blender into scripting mode
