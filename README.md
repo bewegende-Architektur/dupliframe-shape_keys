@@ -1,4 +1,4 @@
-# dupliframes | with shape_keys and materials
+# dupliframes | with shape_keys, modifiers and materials
 
 In previous versions of blender there was a tool called dupliframes.
 This methode allowed users to duplicate an animated object at every frame. 
