@@ -43,7 +43,7 @@ for frame in range(start, end):
         # create mix of current keys
         new_obj.shape_key_add(name='mix', from_mix=True)
         
-        # delte keys
+        # delete keys
         for shapeKey in new_obj.data.shape_keys.key_blocks:
             new_obj.shape_key_remove(shapeKey)
     
@@ -55,3 +55,10 @@ for frame in range(start, end):
     
         # delete keyframes of material
         new_mat.animation_data_clear()
+    
+    # apply modifieres
+    bpy.context.view_layer.objects.active = new_obj
+    mods = new_obj.modifiers
+    if mods:
+        for mod in mods:
+            bpy.ops.object.modifier_apply(modifier=mod.name)
